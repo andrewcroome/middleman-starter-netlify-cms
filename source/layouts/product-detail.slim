@@ -16,5 +16,15 @@ html
     main.main-content
 
       = yield
+      
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+      <script>
+        hbspt.forms.create({
+        portalId: "8915178",
+        formId: "16cc61fb-ad41-41b2-a6ec-c3d485920526"
+      });
+      </script>
 
     = javascript_include_tag 'main', async: true
+    
+    
